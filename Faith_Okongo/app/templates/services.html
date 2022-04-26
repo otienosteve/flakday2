@@ -1,10 +1,13 @@
 {% extends 'base.html' %}
 
 {% block body %}
-<h1>Our Services</h1> 
-   <p>We offer a wide range of services that include:</p>
-       {% for name in names %}
-       <li>{{name}}</li><br>
-       {% endfor %}
-   </ul>
+<div class="container-fluid">
+    <h3>Our Services</h3>
+    <p>We offer a wide range of services that include:</p>
+    {% for name in names %}
+    <li>{{name}}</li><br>
+    {% endfor %}
+</div>
+
+
 {% endblock body %}
