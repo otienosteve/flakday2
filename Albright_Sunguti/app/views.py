@@ -4,7 +4,7 @@ from app import app
 @app.route('/')
 def index():
     name = 'Albright'
-    return render_template('index.html', name=name)
+    return render_template('index.html', name = name)
 
 @app.route('/about')
 def about():
@@ -12,4 +12,5 @@ def about():
 
 @app.route('/services')
 def services():
-    return render_template('services.html')
+    ls = ['Laundry services', 'Cleaning services', 'Handyman services', 'Plumbing services', 'Painting and renovation services']
+    return render_template('services.html', names= ls)
