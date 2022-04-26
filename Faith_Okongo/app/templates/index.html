@@ -5,7 +5,7 @@
     <h2 class="text-center">Ameliorate Spa</h2>
     <h2 class="text-center">Welcome to Ameliorate Spa!</h2>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner" id="car_">
           <div class="carousel-item active">
             <img class="d-block w-100" src="../static/mani.jpeg" alt="First slide" height="500px">
           </div>
@@ -16,7 +16,15 @@
             <img class="d-block w-100" src="../static/pedicure.jpeg" alt="Third slide" height="500px">
           </div>
         </div>
-      </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+        </a>
+    </div>
 </div>
 
 {% endblock body %}
