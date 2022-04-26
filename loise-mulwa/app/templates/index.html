@@ -1,8 +1,28 @@
 {% extends 'base.html' %}
 
 {% block body %}
-<div class="container-fluid bg-success ">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Document</title>
+
+
+</head>
+<body>
+    <p id="come">Coming up in June 24th</p>
+   <h3 id="go"> THE MANDA<span class="lori">LORIAN</span></h3>
+
+   <button class="BTN">WATCH THE TRAILER</button>
+    
+</body>
+</html>
+<!-- <div class="container-fluid bg-success ">
     <h4 class="top bg-dark text-light text-center">~~WELCOME TO FLASK-APP ~~</h4>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1200px-Flask_logo.svg.png" alt="">
-</div>
+</div> -->
 {% endblock body %}

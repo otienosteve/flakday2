@@ -9,6 +9,6 @@ def home():
 def about():
     return render_template('about.html') 
 
-@app.route('/facts')
-def facts():
-    return render_template('facts.html') 
+@app.route('/gallery')
+def gallery():
+    return render_template('gallery.html') 
