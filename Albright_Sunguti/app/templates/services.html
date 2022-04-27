@@ -1,0 +1,17 @@
+{%extends 'base.html' %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>WE Offer The Following services:</h1>
+                <ul >
+                    {% for name in names %}
+                        <li>{{name}}</li>
+                    {% endfor %}
+
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock body%}
