@@ -1,0 +1,50 @@
+{% extends 'main.html' %} {% block body %}
+<div class="container">
+  <h1>Our Services</h1>
+  <h3>We work round the clock</h3>
+
+  <ul>
+      {% for value in values %}
+      <li>{{value}}</li>
+      {% endfor %}
+  </ul>
+
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="card" style="width: 18rem">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOsMpA9jHo7dYS1m00X4SeGSea4rJnyISVwCEX9tDQIOHdiNWKrNgBEOVqaJfB28pfvRU&usqp=CAU" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+              <h1>News Service</h1>
+            We bring you debunked news by demystifying all the raw information, sifting it to give you the best of information.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col--lg-4 col-md-4 col-sm-12">
+      <div class="card" style="width: 18rem">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpzVHqXW0-VXrnGAokRYMBqwX9uFkfGdP2H7dknQnI6c0UELcAYLwppX6D6ZSHpGkXrQ&usqp=CAU" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            <h1>Advertising</h1>
+            Advertise through us. We hacve cutting edge solutions to give value by getting to your potrntial consumers.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="card" style="width: 18rem">
+        <img src="https://thumbs.dreamstime.com/b/consultancy-services-inscription-blue-pointer-d-consultancy-services-text-blue-pointer-consultancy-services-blue-134755815.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            <h1>Consultancy</h1>
+            We bring your big marketing idea to life. We are equiped with analyst ready to hit the markets and provide data for insights.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}
