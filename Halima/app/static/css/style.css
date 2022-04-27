@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Shadows+Into+Light&display=swap');
+
+/* font-family: 'Abril Fatface', cursive; */
+/* font-family: 'Shadows Into Light', cursive; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+body{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.856), rgba(0, 0, 0, 0.555)), url("../girl.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    height: 100vh 
+}
+
+
+h1{
+    color: rgba(34, 165, 143, 0.801);
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+span{
+    color:rgba(61, 231, 231, 0.911);
+    font-family: 'Shadows Into Light', cursive; 
+}
+.in{
+    color: rgba(34, 165, 143, 0.801);
+}
+.ad{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+/* Contact styles */
+.cont{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contact{
+    width: 500px;
+    height: 200px;
+    padding: 15px;
+    background:transparent;
+    box-shadow: 6px 6px 3px rgb(4, 97, 77); 
+    margin-top: 5%;
+}
+.contact small{
+    font-size: 20px;
+}

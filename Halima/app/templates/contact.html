@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+{% block styles%}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('static',filename = 'css/style.css')}}">
+
+{% endblock %}
+
+
+{% block body %}
+<h1>CONTACT US</h1>
+<div class="container cont">
+    <div class="contact" >
+        <small>Address: <span class="ad"> Utawala, Nairobi</span>  </small><br><br>
+        <small>Email: <span class="ad">funbase@gmail.com</span> </small><br><br>
+        <small>Call:  <span class="ad">+254704155513</span> </small>
+    </div>
+   
+</div>
+{% endblock body %}
+

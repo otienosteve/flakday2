@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+<!-- style block -->
+{% block styles%}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('static',filename = 'css/style.css')}}">
+
+{% endblock %}
+
+
+
+{% block body %}
+<h2 class="display-5"><span class="in" >Fun</span><span>base</span></h2>
+<div class="container">
+    <div class="row text-center mt-5">
+        <h1>WELCOME TO <span class="in">Fun</span><span>base</span></h1>
+
+        <p>"Funbase plans, direct, and coordinate recreation-based treatment programs for people with disabilities,
+            injuries, or illnesses.We use a variety of modalities, including arts and crafts; drama, music, and dance;
+            sports and games; aquatics; and community outings to help maintain or improve your physical, social, and
+            emotional well-being.</p>
+    </div>
+</div>
+
+{% endblock body %}

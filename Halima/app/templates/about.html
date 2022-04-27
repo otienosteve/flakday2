@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+<!-- style -->
+{% block styles%}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('static',filename = 'css/style.css')}}">
+
+{% endblock %}
+
+
+{% block body %}
+<h1>ABOUT US</h1>
+<div class="container">
+    <div class="row about text-center">
+        <p> The wellbeing of everyone being our top priority, we ensure that everyone that visits funbase,gets the best
+            treatments in terms of the kind of service they recieve and that that they get,and well have alot of fun
+            while at it. </p>
+        <small> ~ Come to funbase leave a happy soul ~</small>
+    </div>
+    <div class="container">
+        <h3 class="text-center">ACTIVITIES</h3>
+        <div class="row ">
+            <div class="col-md-4">
+                <img src="{{url_for('static',filename='./rec1.jpeg')}}" ><br>
+                <small>YOGA CLASSES</small>
+            </div>
+            <div class="col-md-4">
+                <img src="{{url_for('static',filename='./rec2.jpeg')}}"> <br>
+                <small>DANCE CLASSES</small>
+            </div>
+            <div class="col-md-4">
+                <img src="{{url_for('static',filename='./rec3.jpeg')}}" alt=""><br>
+                <small>SPINNER</small>
+            </div>
+        </div> <br>
+        <div class="row ">
+            <div class="col-md-4">
+                <img src="{{url_for('static',filename='./rec6.jpeg')}}" alt=""><br>
+
+                <small>OUTDOOR GAMES</small>
+            </div>
+            <div class="col-md-4">
+                <img src="{{url_for('static',filename='./rec5.jpeg')}}" alt=""><br>
+
+                <small>HORSE RIDING</small>
+            </div>
+            <div class="col-md-4">
+                <img src="{{url_for('static',filename='./rec4.jpeg')}}" alt=""><br>
+
+                <small>SWIMMING POOL GAMES</small>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}
