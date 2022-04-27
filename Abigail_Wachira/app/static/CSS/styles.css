@@ -1,0 +1,32 @@
+.socials {
+    color:darkmagenta;
+    font-style: italic;
+    font-weight: bold;
+}
+.phone {
+    color:blue;
+    font-weight: bold;
+}
+.mail {
+    color: deeppink;
+    font-style: italic;
+    font-weight: 100;
+}
+p {
+    font-size: large;  
+    color:darkviolet; 
+}
+h1 {
+    color:darkred;
+   
+}
+li {
+    font-size:larger;
+    color:darkslateblue;
+    font-weight: 200;
+    
+
+}
+h2 {
+    color:lightcoral;
+}
